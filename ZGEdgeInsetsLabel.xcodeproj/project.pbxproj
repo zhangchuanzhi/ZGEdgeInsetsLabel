@@ -13,6 +13,7 @@
 		23D463591FDFB20900FB5BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D463581FDFB20900FB5BEB /* Assets.xcassets */; };
 		23D4635C1FDFB20900FB5BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D4635A1FDFB20900FB5BEB /* LaunchScreen.storyboard */; };
 		23D4635F1FDFB20900FB5BEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D4635E1FDFB20900FB5BEB /* main.m */; };
+		23D463671FDFB25100FB5BEB /* ZGEdgeInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D463661FDFB25100FB5BEB /* ZGEdgeInsetsLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		23D4635B1FDFB20900FB5BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23D4635D1FDFB20900FB5BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23D4635E1FDFB20900FB5BEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23D463651FDFB25100FB5BEB /* ZGEdgeInsetsLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGEdgeInsetsLabel.h; sourceTree = "<group>"; };
+		23D463661FDFB25100FB5BEB /* ZGEdgeInsetsLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGEdgeInsetsLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				23D463501FDFB20900FB5BEB /* AppDelegate.m */,
 				23D463521FDFB20900FB5BEB /* ViewController.h */,
 				23D463531FDFB20900FB5BEB /* ViewController.m */,
+				23D463651FDFB25100FB5BEB /* ZGEdgeInsetsLabel.h */,
+				23D463661FDFB25100FB5BEB /* ZGEdgeInsetsLabel.m */,
 				23D463551FDFB20900FB5BEB /* Main.storyboard */,
 				23D463581FDFB20900FB5BEB /* Assets.xcassets */,
 				23D4635A1FDFB20900FB5BEB /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 			files = (
 				23D463541FDFB20900FB5BEB /* ViewController.m in Sources */,
 				23D4635F1FDFB20900FB5BEB /* main.m in Sources */,
+				23D463671FDFB25100FB5BEB /* ZGEdgeInsetsLabel.m in Sources */,
 				23D463511FDFB20900FB5BEB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
